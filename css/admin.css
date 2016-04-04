@@ -1,0 +1,31 @@
+body {
+	background-image: url('../img/background.jpg');
+}
+
+#page-wrapper{
+	margin-left: 20%;
+	margin-right: 5%;
+}
+
+#submit_but{	
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#spl_div1{
+	margin-top: 7%;
+}
+
+#spl_div{
+	margin-top: 5%;
+}
+
+#square {
+    display: table;
+    width: 350px;
+    height: 350px;
+    background: #4679BD;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;	
+}

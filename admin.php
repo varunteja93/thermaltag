@@ -9,7 +9,6 @@
 		header('Location: createnewuser.php');
 	}
 	
-
 	if(isset($_POST['submit_user'])){
 		$name=$_POST['parent'];
 
@@ -41,7 +40,7 @@
 				<div id="spl_div" class="col-lg-6">
 					<form action="" method="post">
 						<div class="form-group">
-							<input id="submit_but" type="submit" class="btn btn-success" name="submit" value="Create new user">
+							<input id="submit_but" type="submit" class="btn btn-success" name="submit" value="Create new user" style="background-color: #FF6600; color: white;">
 						</div>
 					</form>
 				</div>
@@ -59,7 +58,7 @@
                                    
                                         <div class="form-group" >
                                             
-                                            <select class="form-control" name="parent">
+                                            <select class="form-control" name="parent" >
                                                 
                                                 <option selected="selected">Select User</option>
                                                 
@@ -75,11 +74,11 @@
                                                 ?>
                                             </select>
                                         </div>
-                                       <button type="submit" name="submit_user" class="btn btn-success">Show</button>
-                                        <?php echo $sub_msg;?>
+                                       <button type="submit" name="submit_user" class="btn btn-success" style="background-color: #FF6600; color: white;">Show</button>
+                                       <button  class="btn btn-success" style="background-color: #FF6600; color: white;">Delete</button>
+										
+									   <?php echo $sub_msg;?>
                                     </form>
-                                       
-					
 				</div>
 				
 			</div>

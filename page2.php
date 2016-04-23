@@ -41,14 +41,27 @@ $quan = $re['quantity'];
 
 <div id="page-wrapper">
 			<div class="row">
+				<div class="col-lg-1">
+				<a onclick="goBack()" >go Back</>
+
+
+				
+				</div>
+				<div class="col-lg-10">
+                    
+				</div>
+				<div class="col-lg-1">
+                <a href="logout.php" >Logout</a>
+				</div>
 				
 				
 				
 			</div>
+					
 			<div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">ThermalTag: Detail View</h1>
-                    
+					
                 <!-- /.col-lg-12 -->
             </div>
             <div>
@@ -117,4 +130,11 @@ $quan = $re['quantity'];
    
 
     </body>
+	<script>
+	function goBack() {
+		window.history.back();
+		
+		
+	}
+</script>
 </html>
